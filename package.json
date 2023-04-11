@@ -1,12 +1,12 @@
 {
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-native": "^0.71.3"
-  },
   "name": "@xpario/reactnative-layout",
   "description": "Various layout components for React Native",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "main": "src/index.js",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.71.6"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
