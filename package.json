@@ -1,13 +1,12 @@
 {
   "name": "@xpario/reactnative-layout",
   "description": "Various layout components for React Native",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "main": "src/index.js",
   "dependencies": {
     "react": "^18.2.0",
-    "react-native": "^0.71.6"
+    "react-native": "^0.71.7"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
