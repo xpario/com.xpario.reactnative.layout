@@ -1,9 +1,9 @@
 {
   "name": "@xpario/reactnative-layout",
   "description": "Various layout components for React Native",
-  "version": "0.2.20",
+  "version": "1.0.30",
   "main": "src/index.js",
-  "dependencies": {
+  "devDependencies": {
     "react": "^18.2.0",
     "react-native": "0.72.1"
   },
