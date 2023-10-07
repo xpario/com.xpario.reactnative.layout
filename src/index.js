@@ -2,6 +2,7 @@
 // Layout Components
 // ************************************************************
 import {View, StyleSheet} from "react-native";
+import {disableAccessibility} from "@xpario/com.xpario.reactnative.accessability";
 
 // ************************************************************
 // Constants
@@ -23,6 +24,7 @@ function Spacer(props) {
     let size = properties.size * properties.factor;
     return (
         <View style={[
+            {...disableAccessibility()},
             properties.style,
             debug && styles.debug,
             {
@@ -47,6 +49,7 @@ function Row(props) {
     return (
         <View
             {...props}
+            {...disableAccessibility()}
             style={[
                 row_styles.defaults,
                 properties.style,
